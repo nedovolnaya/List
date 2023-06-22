@@ -2,7 +2,7 @@ package pro.sky.ListExample.service;
 
 import pro.sky.ListExample.Employee;
 
-import java.util.List;
+import java.util.Collection;
 
 public interface EmployeeService {
     Employee add(String firstName, String lastName);
@@ -11,5 +11,5 @@ public interface EmployeeService {
 
     Employee find(String firstName, String lastName);
 
-    List<Employee> findAll();
+    Collection<Employee> findAll();
 }
